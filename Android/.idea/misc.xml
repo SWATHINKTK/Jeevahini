@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_custom.xml" value="0.33" />
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_custom1.xml" value="0.25" />
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_custom2.xml" value="0.25" />
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_driver_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_driver_registration.xml" value="0.22447916666666667" />
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_notify_nearest_hospital.xml" value="0.22447916666666667" />
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_report_user.xml" value="0.33" />
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_send_feedback.xml" value="0.25" />
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_track_request_location.xml" value="0.22" />
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_view_emergency_request_and_accept.xml" value="0.25" />
+        <entry key="..\:/Jeevahini/app/src/main/res/layout/activity_view_request_status.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Desktop/jeevahini/Android/Jeevahini/app/src/main/res/layout/activity_accident_level.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/Desktop/jeevahini/Android/Jeevahini/app/src/main/res/layout/activity_custom.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/Desktop/jeevahini/Android/Jeevahini/app/src/main/res/layout/activity_custom1.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/jeevahini/Android/Jeevahini/app/src/main/res/layout/activity_custom2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/Desktop/jeevahini/Android/Jeevahini/app/src/main/res/layout/activity_driver_home.xml" value="0.18" />
+        <entry key="..\:/Users/HP/Desktop/jeevahini/Android/Jeevahini/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/jeevahini/Android/Jeevahini/app/src/main/res/layout/activity_track_request_location.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/Desktop/jeevahini/Android/Jeevahini/app/src/main/res/layout/activity_user_home.xml" value="0.1" />
+        <entry key="..\:/Users/REGIONAL/Desktop/jeevahini/android/Jeevahini/app/src/main/res/layout/activity_custom1.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/REGIONAL/Desktop/jeevahini/android/Jeevahini/app/src/main/res/layout/activity_payment_amount.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/REGIONAL/Desktop/jeevahini/android/Jeevahini/app/src/main/res/layout/activity_payment_new.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/REGIONAL/Desktop/jeevahini/android/Jeevahini/app/src/main/res/layout/activity_payment_status.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/REGIONAL/Desktop/jeevahini/android/Jeevahini/app/src/main/res/layout/activity_rate_driver.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.136" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/drawable/driver_page_bottom.xml" value="0.135" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/drawable/half_white_bg.xml" value="0.136" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/drawable/login_background.xml" value="0.136" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/drawable/login_textfield_bg.xml" value="0.136" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/drawable/register_button.xml" value="0.1345" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/drawable/user_button.xml" value="0.1345" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/accident_level.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_accident_level.xml" value="0.2" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_custom.xml" value="0.22" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_custom1.xml" value="0.22" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_custom2.xml" value="0.25" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_custom3.xml" value="0.25" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_custom_payment.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_driver_home.xml" value="0.25" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_login.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_notify_nearest_hospital.xml" value="0.25" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_payment.xml" value="0.25" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_payment_amount.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_payment_new.xml" value="0.25" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_payment_status.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_rate_driver.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_report_user.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_track_ambulance_location.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_user_home.xml" value="0.2" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_view_emergency_request_and_accept.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Regional/Desktop/jeevahini/Android/Jeevahini/Jeevahini/app/src/main/res/layout/activity_view_request_status.xml" value="0.12552083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

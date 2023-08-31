@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Accident_level">
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accident Type" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioButton100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Level 1(Emegency)" />
+
+            <RadioButton
+                android:id="@+id/radioButton102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Level 2(Major injury)" />
+
+            <RadioButton
+                android:id="@+id/radioButton104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Level3 (Minor injury)" />
+
+        </RadioGroup>
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </TableRow>
+
+</LinearLayout>

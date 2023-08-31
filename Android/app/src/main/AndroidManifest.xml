@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.jeevahini">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Jeevahini"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".custom_payment"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_status"
+            android:exported="false" />
+        <activity
+            android:name=".payment_amount"
+            android:exported="false" />
+        <activity
+            android:name=".Accident_level"
+            android:exported="false" />
+        <activity
+            android:name=".custom2"
+            android:exported="false" />
+
+        <service android:name=".LocationServiceno" />
+
+        <activity
+            android:name=".custom1"
+            android:exported="false" />
+        <activity
+            android:name=".custom"
+            android:exported="false" />
+
+        <service android:name=".LocationService" />
+
+        <activity
+            android:name=".view_request_status"
+            android:exported="false" />
+        <activity
+            android:name=".Driver_Registration"
+            android:exported="true" />
+        <activity
+            android:name=".Register_user"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".Send_Feedback"
+            android:exported="true" />
+        <activity
+            android:name=".Rate_Driver"
+            android:exported="true" />
+        <activity
+            android:name=".Track_Ambulance_Location"
+            android:exported="true" />
+        <activity
+            android:name=".Report_user"
+            android:exported="true" />
+        <activity
+            android:name=".Update_status"
+            android:exported="true" />
+        <activity
+            android:name=".Notify_Nearest_Hospital"
+            android:exported="true" />
+        <activity
+            android:name=".Track_Request_location"
+            android:exported="true" />
+        <activity
+            android:name=".View_Emergency_Request_and_Accept"
+            android:exported="true" />
+        <activity
+            android:name=".driver_home"
+            android:exported="true" />
+        <activity
+            android:name=".user_home"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

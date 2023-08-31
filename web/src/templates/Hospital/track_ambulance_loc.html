@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body><form>
+<table width="532" height="91" border="1">
+  <tr>
+    <td width="102" height="41">Driver name </td>
+    <td width="158">Ambulance number </td>
+    <td width="108">Phone number </td>
+    <td width="146">&nbsp;</td>
+  </tr>
+  {% for i in val %}
+  <tr>
+    <td>{{ i['F_name']}} {{ i['L_name']}}</td>
+    <td>&nbsp;{{ i['Vehicle_no']}} </td>
+    <td>{{ i['Phone_no']}} </td>
+    <td><a href="#">Track</a></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{% extends 'admin/admin_index.html' %}
+{% block body %}
+<br>
+<br>
+<h2>BLOCK USER</h2>
+<br>
+<br>
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table class="table table-hover">
+    <tr>
+      <td>#</td>
+      <td>Username</td>
+      <td>Address</td>
+      <td>Phone no </td>
+      <td>Email</td>
+      <td>&nbsp;</td>
+    </tr>
+    {% for i in val %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>{{ i['F_name']}} {{ i['L_name']}}</td>
+      <td>{{ i['Address']}}</td>
+      <td>{{ i['Phone_NO']}}</td>
+      <td>{{ i['Email']}}</td>
+      <td>{% if i['Type']=='user' %}
+        <a class="btn btn-danger" href="block_user?id={{i['L_id']}}">block</a><br>
+        {% else %}
+	  <a class="btn btn-primary" href="unblock_user?id={{i['L_id']}}">unblock</a></td>
+      {% endif %}
+    </tr>
+    {% endfor %}
+  </table>
+</form>
+</body>
+{% endblock %}}

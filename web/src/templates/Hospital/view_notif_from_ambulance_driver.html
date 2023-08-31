@@ -1,0 +1,30 @@
+{% extends 'Hospital/hospital_index.html' %}
+{% block body %}
+<br>
+<br>
+<h2>NOTIFICATIONS</h2>
+<br>
+<br>
+<body><table class="table table-hover">
+  <tr>
+    <td>#</td>
+    <td>Driver name </td>
+    <td>Ambulance number </td>
+    <td>Phone number </td>
+    <td>Notification </td>
+    <td> </td>
+  </tr>
+  {% for i in val %}
+  <tr>
+    <td>{{ loop.index }}</td>
+    <td>{{ i['F_name']}} {{ i['L_name']}}</td>
+    <td>{{ i['Vehicle_no']}} </td>
+    <td>&nbsp;{{ i['Phone_no']}} </td>
+    <td>{{ i['Level']}} </td>
+    <td><a href="https://www.google.com/maps?q={{i['latitude']}},{{i['Longitude']}}">Track</a></td>
+  </tr>
+  {% endfor %}
+</table>
+
+</body>
+{% endblock %}}

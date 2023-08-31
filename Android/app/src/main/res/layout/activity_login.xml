@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:orientation="vertical"
+        android:paddingBottom="100dp"
+        android:layout_marginBottom="-70dp"
+        android:background="@drawable/login_bg">
+
+        <TextView
+            android:id="@+id/textView128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="JEEVAHINI"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/half_white_bg"
+            android:fontFamily="sans-serif-black"
+            android:textSize="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_background"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Username"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:width="340dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/login_textfield_bg"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Password "/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:width="340dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/login_textfield_bg"
+                android:ems="10"
+                android:inputType="textPassword" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="340dp"
+                android:height="50dp"
+                android:layout_marginTop="9dp"
+                android:textColor="#1704A1"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:background="@drawable/login_button"
+                android:text="Login " />
+
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <View
+                android:id="@+id/view4"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#707070"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4d4d4d"
+                android:layout_marginStart="8dp"
+                android:text="  or  " />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#707070"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="340dp"
+                android:height="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fc002b"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:background="@drawable/register_button"
+                android:text="Register"/>
+        </TableRow>
+
+    </LinearLayout>
+</LinearLayout>

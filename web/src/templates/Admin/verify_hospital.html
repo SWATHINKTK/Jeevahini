@@ -1,0 +1,39 @@
+{% extends 'admin/admin_index.html' %}
+{% block body %}
+<br>
+<br>
+<h2>VERIFY HOSPITAL</h2>
+<br>
+<br>
+<body>
+<form>
+  <table class="table table-hover">
+  <tr>
+    <th>#</th>
+    <th>Hospital name </th>
+    <th>Place</th>
+    <th>Post</th>
+    <th>Pin</th>
+    <th>Phone no </th>
+    <th>Email </th>
+    <th></th>
+    <th></th>
+  </tr>
+  {% for i in val %}
+  <tr>
+    <td>{{ loop.index }}</td>
+    <td>{{ i['Hospital_name']}} </td>
+    <td>&nbsp;{{ i['Place']}} </td>
+    <td>{{ i['Post']}} </td>
+    <td>{{ i['Pin']}} </td>
+    <td>{{ i['Phone_NO']}} </td>
+    <td>{{ i['Email']}} </td>
+    <td><a class="btn btn-success" href="accept_hosp?id={{i['L_id']}}">ACCEPT</a></td>
+    <td><a class="btn btn-danger" href="reject_hosp?id={{i['L_id']}}">REJECT</a></td>
+  </tr>
+
+  {% endfor %}
+</table>
+</form>
+</body>
+{% endblock %}}
